@@ -1,2 +1,2 @@
-This is the Readme for "Remove console logs"
+** How To Use **
 Remove Javascript console logs in current open file just by pressing `Alt +  c`.
