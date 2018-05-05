@@ -2,7 +2,7 @@
     "name": "RemoveConsoleLogs",
     "displayName": "Remove Console Logs",
     "description": "Removes console logs from current file opene in editor",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "NikhilMutkekar",
     "engines": {
         "vscode": "^1.22.0"
