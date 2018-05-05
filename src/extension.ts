@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
         new Promise((resolve) => {
             currEditor.edit((builder) => {
                 let doc = currEditor.document;
-                for (let i = 0; i <= doc.lineCount - 2; i++) {
+                for (let i = 0; i <= doc.lineCount - 1; i++) {
                     if (doc.lineAt(i).text.indexOf('console.log') !== -1) {
                         builder.replace(new vscode.Range(new vscode.Position(i, 0), new vscode.Position(i + 1, 0)), "");
                     }
