@@ -2,10 +2,13 @@
     "name": "RemoveConsoleLogs",
     "displayName": "Remove Console Logs",
     "description": "Removes console logs from current file opene in editor",
-    "version": "0.0.1",
-    "publisher": "nikhilmutkekar",
+    "version": "0.1.0",
+    "publisher": "NikhilMutkekar",
     "engines": {
         "vscode": "^1.22.0"
+    },
+    "repository": {
+        "url": "https://github.com/NikhilMutkekar/removeConsoleLogs.git"
     },
     "categories": [
         "Other"
